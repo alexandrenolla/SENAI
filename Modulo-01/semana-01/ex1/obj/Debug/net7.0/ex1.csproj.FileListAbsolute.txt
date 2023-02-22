@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/bin/Debug/net7.0/ex1
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/bin/Debug/net7.0/ex1.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/bin/Debug/net7.0/ex1.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/bin/Debug/net7.0/ex1.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/bin/Debug/net7.0/ex1.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/refint/ex1.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ex1.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/Senai/floripa-mais-tec/Modulo-01/semana-01/ex1/obj/Debug/net7.0/ref/ex1.dll
