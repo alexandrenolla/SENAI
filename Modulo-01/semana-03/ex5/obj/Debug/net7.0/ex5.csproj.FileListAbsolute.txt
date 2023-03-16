@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/bin/Debug/net7.0/ex5
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/bin/Debug/net7.0/ex5.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/bin/Debug/net7.0/ex5.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/bin/Debug/net7.0/ex5.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/bin/Debug/net7.0/ex5.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/refint/ex5.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ex5.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/ex5/obj/Debug/net7.0/ref/ex5.dll

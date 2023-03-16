@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/bin/Debug/net7.0/aulas
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/bin/Debug/net7.0/aulas.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/bin/Debug/net7.0/aulas.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/bin/Debug/net7.0/aulas.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/bin/Debug/net7.0/aulas.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/refint/aulas.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/aulas.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-03/aulas/obj/Debug/net7.0/ref/aulas.dll
