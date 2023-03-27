@@ -4,19 +4,23 @@ Funcionario tupac = new Funcionario("Tupac", DateTime.Parse("1971-09-06"), new E
     CEP = "88056-460",
     Cidade = "Florianópolis",
     Estado = "SC",
+    Logradouro = "Avenida Outlaw",
     Numero = "99",
     Complemento = "Where the cash is"
     // Deixei o campo Logradouro vazio (string vazia)
 }, 10000, "Desenvolvedor Jr.");
 
 tupac.Descrever();
-Console.WriteLine($"\n");
 // Sobrecarga 
 tupac.ReceberAumento(30000, "Desenvolvedor Pleno");
 tupac.Descrever();
-
+Console.WriteLine($"\n");
 
 Cliente bruno = new Cliente("Bruno", DateTime.Parse("1999-01-25"), new Endereco{
+    Cidade = "Balneario Camboriu",
+    Estado = "SC",
+    Logradouro = "Avenida Brasil",
+    Numero = "33",
     CEP = "88056-460"
 }, 1904);
 
@@ -27,6 +31,10 @@ Console.WriteLine($"\n");
 
 // Especialização da Pessoa: Aluno herda tudo da Pessoa + o que ele próprio implementou.
 Aluno aluno = new Aluno("João", DateTime.Parse("1994-10-13"), new Endereco{
+    Cidade = "Joinville",
+    Estado = "SC",
+    Logradouro = "Avenida Central",
+    Numero = "11",
     CEP = "88056-460"
 }, "Business", 1);
 

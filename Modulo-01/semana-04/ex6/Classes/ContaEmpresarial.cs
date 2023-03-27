@@ -24,15 +24,17 @@ namespace ex6.Classes
         public override void Sacar(decimal valor)
         {
             // Taxa de R$ 1,00 por saque
-            valor = valor + 1;
+            decimal taxa = 1.0M;
             base.Sacar(valor);
+            Saldo = Saldo - taxa;
         }
 
         public override void Transferir(ContaBancaria conta, decimal valor)
         {
             // Taxa de R$ 0,50 por transferência
-            valor = valor + 0.50m;
+            decimal taxa = 0.50M;
             base.Transferir(conta, valor);
+            Saldo = Saldo - taxa;
         }
 
         public void FazerEmprestimo(decimal emprestimo)
@@ -69,13 +71,13 @@ namespace ex6.Classes
             {
                 Console.WriteLine($"Saldo insuficiente para realizar o pagamento.");
                 
-            }
-
-            Sacar(total);
-            PossuiEmprestimo = false;
-            ValorUsado = 0;
-            Console.WriteLine($"Parabéns, você quitou o empréstimo no valor de {total}! Limite liberado novamente.");
-            
+            }else
+            {
+                Sacar(total);
+                PossuiEmprestimo = false;
+                ValorUsado = 0;
+                Console.WriteLine($"Parabéns, você quitou o empréstimo no valor de {total}! Limite liberado novamente.");
+            }            
         }
     }
 }

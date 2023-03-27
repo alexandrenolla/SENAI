@@ -13,15 +13,17 @@ namespace ex6.Classes
         public override void Sacar(decimal valor)
         {
             // Taxa de R$ 0,50 por saque
-            valor = valor + 0.50M;
+            decimal taxa = 0.50M;
             base.Sacar(valor);
+            Saldo = Saldo - taxa;
         }
 
         public override void Transferir(ContaBancaria conta, decimal valor)
-        {
+        {   
             // Taxa de R$ 0,25 por transferência
-            valor = valor + 0.25M;
+            decimal taxa = 0.25M;
             base.Transferir(conta, valor);
+            Saldo = Saldo - taxa;
         }
     }
 }

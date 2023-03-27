@@ -9,6 +9,11 @@ namespace aulas.Classes
     public string Estado { get; set; }
     public string CEP { get; set; }
     public string Complemento { get; set; }
+
+    public string MostrarEndereco()
+    {
+        return $"{Logradouro}, {Numero}, {Cidade}, {Estado}, {CEP}";
+    }
     }
 }
 

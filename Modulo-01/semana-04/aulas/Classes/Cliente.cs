@@ -10,7 +10,7 @@ namespace aulas.Classes
 
         public override void Descrever()
         {
-            Console.WriteLine($"O cliente {Nome} nasceu em {Nascimento}, reside no {Endereco} e possui cadastro número {Cadastro}.");
+            Console.WriteLine($"O cliente {Nome} nasceu em {Nascimento}, reside no {Endereco.MostrarEndereco()} e possui cadastro número {Cadastro}.");
             
         }
     }   

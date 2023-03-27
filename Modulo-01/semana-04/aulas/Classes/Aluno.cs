@@ -13,7 +13,7 @@ namespace aulas.Classes
 
         public override void Descrever()
         {
-            Console.WriteLine($"O aluno {Nome} nasceu em {Nascimento}, reside em {Endereco} e cursa {Curso}, atualmente no {Semestre}• semestre.");
+            Console.WriteLine($"O aluno {Nome} nasceu em {Nascimento}, reside em {Endereco.MostrarEndereco()} e cursa {Curso}, atualmente no {Semestre}• semestre.");
             
         }
     }

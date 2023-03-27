@@ -36,7 +36,7 @@ namespace aulas.Classes
         }
         public override void Descrever()
         {
-            Console.WriteLine($"O Funcionário {Nome} nasceu em {Nascimento} e possui o seguinte endereço: {Endereco}. Possui um salário de {Salario} dólares e é um {Cargo}.");
+            Console.WriteLine($"O Funcionário {Nome} nasceu em {Nascimento} e possui o seguinte endereço: {Endereco.MostrarEndereco()}. Possui um salário de {Salario} dólares e é um {Cargo}.");
             
         }
     }
