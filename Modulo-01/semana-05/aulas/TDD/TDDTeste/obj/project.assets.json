@@ -1808,6 +1808,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "TDD/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TDD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TDD.dll": {}
+        }
       }
     }
   },
@@ -6103,11 +6113,17 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "TDD/1.0.0": {
+      "type": "project",
+      "path": "../TDD/TDD.csproj",
+      "msbuildProject": "../TDD/TDD.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "TDD >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -6137,7 +6153,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TDD/TDD/TDD.csproj": {
+              "projectPath": "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TDD/TDD/TDD.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
