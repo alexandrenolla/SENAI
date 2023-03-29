@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/bin/Debug/net7.0/TratExcEspecificos
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/bin/Debug/net7.0/TratExcEspecificos.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/bin/Debug/net7.0/TratExcEspecificos.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/bin/Debug/net7.0/TratExcEspecificos.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/bin/Debug/net7.0/TratExcEspecificos.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/refint/TratExcEspecificos.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/TratExcEspecificos.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcEspecificos/obj/Debug/net7.0/ref/TratExcEspecificos.dll

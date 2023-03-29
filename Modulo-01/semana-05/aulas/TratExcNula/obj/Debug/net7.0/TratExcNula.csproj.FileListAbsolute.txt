@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/bin/Debug/net7.0/TratExcNula
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/bin/Debug/net7.0/TratExcNula.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/bin/Debug/net7.0/TratExcNula.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/bin/Debug/net7.0/TratExcNula.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/bin/Debug/net7.0/TratExcNula.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/refint/TratExcNula.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/TratExcNula.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcNula/obj/Debug/net7.0/ref/TratExcNula.dll

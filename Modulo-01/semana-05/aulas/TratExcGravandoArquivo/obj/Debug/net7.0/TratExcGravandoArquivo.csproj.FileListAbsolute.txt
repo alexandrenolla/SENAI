@@ -1,0 +1,15 @@
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/bin/Debug/net7.0/TratExcGravandoArquivo
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/bin/Debug/net7.0/TratExcGravandoArquivo.deps.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/bin/Debug/net7.0/TratExcGravandoArquivo.runtimeconfig.json
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/bin/Debug/net7.0/TratExcGravandoArquivo.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/bin/Debug/net7.0/TratExcGravandoArquivo.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.csproj.AssemblyReference.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.AssemblyInfoInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.AssemblyInfo.cs
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.csproj.CoreCompileInputs.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/refint/TratExcGravandoArquivo.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.pdb
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/TratExcGravandoArquivo.genruntimeconfig.cache
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-05/aulas/TratExcGravandoArquivo/obj/Debug/net7.0/ref/TratExcGravandoArquivo.dll
