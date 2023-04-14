@@ -1,0 +1,1 @@
+namespace ex2.Controller;
