@@ -22,4 +22,9 @@ public class FloriculturaContexto : DbContext
         modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
         modelBuilder.ApplyConfiguration(new TipoConfiguration());
     }
+
+    public FloriculturaContexto(DbContextOptions<FloriculturaContexto> options) : base(options)
+        {
+            
+        }
 }

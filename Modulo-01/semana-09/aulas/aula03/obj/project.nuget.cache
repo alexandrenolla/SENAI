@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pX8bafqKgVKEOe5nHMOXT7WjRXiCS38kDkFhjLv2lm6ZclAbCdIcSJlHo3vXnwOQqVZRs7olrlzqLMxoduV6Zw==",
+  "dgSpecHash": "5dYKE82R5ENZyf7k8pZk6R5lKPSVqwGayHjKetGBoS1BHWq1cCM+BSHqsPuy+rtlAzhGysXifuH0Oi6nY5AC5w==",
   "success": true,
   "projectFilePath": "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-09/aulas/aula03/aula03.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/alexandrenolla/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/alexandrenolla/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

@@ -9,6 +9,9 @@ public class ProdutoConfiguration : IEntityTypeConfiguration<Produto>
     {
         builder.HasKey(x => x.Id);
 
+        builder.Property(x => x.Preco)
+        .HasColumnType("decimal 5,2");
+
         // 1 para muitos
         builder.HasOne(x => x.Tipo) // 1
         .WithMany(x => x.Produtos) // muitos
