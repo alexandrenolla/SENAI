@@ -2,9 +2,9 @@ using aula03.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace aula03.Models;
-
+    // Classe que representa o BD
 public class FloriculturaContexto : DbContext
-{
+{   // Propriedades que representam as Tabelas
     public DbSet <Cliente> Clientes { get; set; }
     public DbSet <Estoque> Estoques { get; set; }
     public DbSet <TipoProduto> TipoProdutos { get; set; }
