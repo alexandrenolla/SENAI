@@ -71,3 +71,6 @@
 /Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/obj/Debug/net7.0/aula01.pdb
 /Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/obj/Debug/net7.0/aula01.genruntimeconfig.cache
 /Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/obj/Debug/net7.0/ref/aula01.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/bin/Debug/net7.0/FluentValidation.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll

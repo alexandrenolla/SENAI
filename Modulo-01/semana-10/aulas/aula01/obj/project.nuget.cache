@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k9yAXaWtkgAXlXyPFQKVmYxK/cvbC49np3PY+yDH5SX01YSTCFyN8KhyeT7sCMyFx2URUFfgjTvxojedq6AzgQ==",
+  "dgSpecHash": "oEl53Sd78TvsDwBaZMMhDBIqfJqunauyMCi+09MymWh7ww0IW5+v002thz03ypMvB44JlGPrtC2Ysnh58Z7tpw==",
   "success": true,
   "projectFilePath": "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/aulas/aula01/aula01.csproj",
   "expectedPackageFiles": [
+    "/Users/alexandrenolla/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
+    "/Users/alexandrenolla/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/alexandrenolla/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/microsoft.aspnetcore.openapi/7.0.2/microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/microsoft.data.sqlite.core/7.0.5/microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
