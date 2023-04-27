@@ -9,6 +9,14 @@ public class TeacherConfiguration : IEntityTypeConfiguration<Teacher>
 {
     public void Configure(EntityTypeBuilder<Teacher> builder)
     {
-        throw new NotImplementedException();
+        builder.HasKey(x => x.Id);
+
+        builder.HasOne(x => x.User)
+        .WithOne(x => x.Teacher)
+        .HasForeignKey<Teacher>(x => x.UserId)
+        .HasConstraintName("FK_User");
+
+        builder.HasMany(x => x.Disciplines)
+        .WithOne(x => x.Teacher);
     }
 }

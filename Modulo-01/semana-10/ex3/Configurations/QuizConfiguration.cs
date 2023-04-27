@@ -9,6 +9,14 @@ public class QuizConfiguration : IEntityTypeConfiguration<Quiz>
 {
     public void Configure(EntityTypeBuilder<Quiz> builder)
     {
-        throw new NotImplementedException();
+        builder.HasKey(x => x.Id);
+
+        builder.HasOne(x => x.Discipline)
+        .WithMany(x => x.Quizzes)
+        .HasForeignKey(x => x.DisciplineId)
+        .HasConstraintName("FK_Discipline");
+
+        builder.HasMany(x => x.Questions)
+        .WithOne(x => x.Quiz);
     }
 }

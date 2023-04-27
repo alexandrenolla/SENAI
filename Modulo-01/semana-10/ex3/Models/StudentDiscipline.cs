@@ -2,6 +2,7 @@ namespace ex3.Models;
 
 public class StudentDiscipline
 {
+    public int Id { get; set; }
     public int StudentId { get; set; }
     public int DisciplineId { get; set; }
 

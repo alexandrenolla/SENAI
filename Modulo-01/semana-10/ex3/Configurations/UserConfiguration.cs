@@ -9,6 +9,12 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
 {
     public void Configure(EntityTypeBuilder<User> builder)
     {
-        throw new NotImplementedException();
+        builder.HasKey(x => x.Id);
+
+        builder.HasOne(x => x.Teacher)
+        .WithOne(x => x.User);
+
+        builder.HasOne(x => x.Student)
+        .WithOne(x => x.User);
     }
 }
