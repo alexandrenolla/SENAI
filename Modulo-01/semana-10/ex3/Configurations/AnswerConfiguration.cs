@@ -20,5 +20,7 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
         .WithOne(x => x.Answer)
         .HasForeignKey<Answer>(x => x.QuestionId)
         .HasConstraintName("FK_Question");
+
+        builder.ToTable("Answer");
     }
 }

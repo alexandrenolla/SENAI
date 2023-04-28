@@ -16,10 +16,6 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
         .HasForeignKey<Student>(y => y.UserId)
         .HasConstraintName("FK_User");
 
-        builder.HasMany(x => x.Disciplines)
-        .WithOne(x => x.Student);
-
-        builder.HasMany(x => x.Answers)
-        .WithOne(x => x.Student);
+        builder.ToTable("Student");
     }
 }

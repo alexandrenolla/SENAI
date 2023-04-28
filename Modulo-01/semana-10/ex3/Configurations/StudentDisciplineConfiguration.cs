@@ -20,5 +20,7 @@ public class StudentDisciplineConfiguration : IEntityTypeConfiguration<StudentDi
         .WithMany(x => x.Students)
         .HasForeignKey(x => x.DisciplineId)
         .HasConstraintName("FK_Discipline");
+
+        builder.ToTable("Student_Discipline");
     }
 }

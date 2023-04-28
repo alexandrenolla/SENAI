@@ -47,7 +47,7 @@ namespace ex1.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("Answers");
+                    b.ToTable("Answer", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Discipline", b =>
@@ -67,7 +67,7 @@ namespace ex1.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("Disciplines");
+                    b.ToTable("Discipline", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Question", b =>
@@ -90,7 +90,7 @@ namespace ex1.Migrations
 
                     b.HasIndex("QuizId");
 
-                    b.ToTable("Questions");
+                    b.ToTable("Question", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Quiz", b =>
@@ -116,7 +116,7 @@ namespace ex1.Migrations
 
                     b.HasIndex("DisciplineId");
 
-                    b.ToTable("Quizzes");
+                    b.ToTable("Quiz", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Student", b =>
@@ -139,7 +139,7 @@ namespace ex1.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Students");
+                    b.ToTable("Student", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.StudentDiscipline", b =>
@@ -160,7 +160,7 @@ namespace ex1.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("StudentDisciplines");
+                    b.ToTable("Student_Discipline", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Teacher", b =>
@@ -181,7 +181,7 @@ namespace ex1.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Teachers");
+                    b.ToTable("Teacher", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.User", b =>
@@ -207,7 +207,7 @@ namespace ex1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User", (string)null);
                 });
 
             modelBuilder.Entity("ex3.Models.Answer", b =>

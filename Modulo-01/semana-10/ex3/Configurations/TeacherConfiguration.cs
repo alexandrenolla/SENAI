@@ -16,7 +16,7 @@ public class TeacherConfiguration : IEntityTypeConfiguration<Teacher>
         .HasForeignKey<Teacher>(x => x.UserId)
         .HasConstraintName("FK_User");
 
-        builder.HasMany(x => x.Disciplines)
-        .WithOne(x => x.Teacher);
+        builder.ToTable("Teacher");
+
     }
 }

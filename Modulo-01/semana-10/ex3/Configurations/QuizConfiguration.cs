@@ -16,7 +16,6 @@ public class QuizConfiguration : IEntityTypeConfiguration<Quiz>
         .HasForeignKey(x => x.DisciplineId)
         .HasConstraintName("FK_Discipline");
 
-        builder.HasMany(x => x.Questions)
-        .WithOne(x => x.Quiz);
+        builder.ToTable("Quiz");
     }
 }

@@ -16,11 +16,6 @@ public class DisciplineConfiguration : IEntityTypeConfiguration<Discipline>
         .HasForeignKey(x => x.TeacherId)
         .HasConstraintName("FK_Teacher");
 
-        builder.HasMany(x => x.Students)
-        .WithOne(x => x.Discipline);
-
-        builder.HasMany(x => x.Quizzes)
-        .WithOne(x => x.Discipline);
-
+        builder.ToTable("Discipline");
     }
 }
