@@ -18,7 +18,7 @@ public class DisciplineController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/obter/{id}")]
+    [Route("api/discipline/obter/{id}")]
     public IActionResult ObterId(int id)
     {
         var discipline = _disciplineRepository.ObterPorId(id);
@@ -33,7 +33,7 @@ public class DisciplineController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/listar")]
+    [Route("api/disciplines/listar")]
     public IActionResult ObterLista()
     {
         var disciplines = _disciplineRepository.Listar();
@@ -42,7 +42,7 @@ public class DisciplineController : ControllerBase
     }
 
     [HttpPost]
-    [Route("api/criar")]
+    [Route("api/discipline/criar")]
     public IActionResult Criar([FromBody] DisciplineDto disciplineDto)
     {
         var discipline = new Discipline();
@@ -55,7 +55,7 @@ public class DisciplineController : ControllerBase
     }
 
     [HttpPut]
-    [Route("api/atualizar/{id}")]
+    [Route("api/discipline/atualizar/{id}")]
     public IActionResult Atualizar(int id, [FromBody] DisciplineDto disciplineDto)
     {
         var discipline = _disciplineRepository.ObterPorId(id);
@@ -75,7 +75,7 @@ public class DisciplineController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("api/deletar/{id}")]
+    [Route("api/discipline/deletar/{id}")]
     public IActionResult Deletar(int id)
     {
         if(_disciplineRepository.Excluir(id))

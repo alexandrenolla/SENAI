@@ -19,7 +19,7 @@ public class QuizController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/obter/{id}")]
+    [Route("api/quiz/obter/{id}")]
     public IActionResult ObterId(int id)
     {
         var quiz = _quizRepository.ObterPorId(id);
@@ -34,7 +34,7 @@ public class QuizController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/listar")]
+    [Route("api/quizzes/listar")]
     public IActionResult ObterLista()
     {
         var quizzes = _quizRepository.Listar();
@@ -43,7 +43,7 @@ public class QuizController : ControllerBase
     }
 
     [HttpPost]
-    [Route("api/criar")]
+    [Route("api/quiz/criar")]
     public IActionResult Criar([FromBody] QuizCriarDto quizDto)
     {
         var quiz = new Quiz();
@@ -57,7 +57,7 @@ public class QuizController : ControllerBase
     }
 
     [HttpPut]
-    [Route("api/atualizar/{id}")]
+    [Route("api/quiz/atualizar/{id}")]
     public IActionResult Atualizar(int id, [FromBody] QuizAtualizarDto quizDto)
     {
         var quiz = _quizRepository.ObterPorId(id);
@@ -78,7 +78,7 @@ public class QuizController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("api/deletar/{id}")]
+    [Route("api/quiz/deletar/{id}")]
     public IActionResult Deletar(int id)
     {
         if(_quizRepository.Excluir(id))

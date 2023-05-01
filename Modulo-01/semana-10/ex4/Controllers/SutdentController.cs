@@ -18,7 +18,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/obter/{id}")]
+    [Route("api/student/obter/{id}")]
     public IActionResult ObterId(int id)
     {
         var student = _studentRepository.ObterPorId(id);
@@ -33,7 +33,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/listar")]
+    [Route("api/students/listar")]
     public IActionResult ObterLista()
     {
         var students = _studentRepository.Listar();
@@ -42,7 +42,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpPost]
-    [Route("api/criar")]
+    [Route("api/student/criar")]
     public IActionResult Criar([FromBody] StudentCriarDto studentDto)
     {
         var newStudent = new Student();
@@ -55,7 +55,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpPut]
-    [Route("api/atualizar/{id}")]
+    [Route("api/student/atualizar/{id}")]
     public IActionResult Atualizar(int id, [FromBody] StudentAtualizarDto studentDto)
     {
         var updatestudent = _studentRepository.ObterPorId(id);
@@ -75,7 +75,7 @@ public class StudentController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("api/deletar/{id}")]
+    [Route("api/student/deletar/{id}")]
     public IActionResult Deletar(int id)
     {
         if(_studentRepository.Excluir(id))

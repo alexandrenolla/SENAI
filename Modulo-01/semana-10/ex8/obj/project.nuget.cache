@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QdNySNCLp+suTw9R96vUcQbqAjRsBMLVLQiftJ2ytYtFiIC4zUGzWt1pevW0NLLYhBBnuWCJVCtw7Hm9VCFKhw==",
+  "dgSpecHash": "YHAvBv++hM3dlgOyaRIB8ScV2ay9dOif1zw6/VngxXNQOtCsjGfUXSjLH7mD2ahlgKKeeS960aytI2z5eUrDrg==",
   "success": true,
-  "projectFilePath": "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/ex5/ex1.csproj",
+  "projectFilePath": "/Users/alexandrenolla/Documents/Full-Stack-Development/SENAI/Modulo-01/semana-10/ex8/ex1.csproj",
   "expectedPackageFiles": [
     "/Users/alexandrenolla/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alexandrenolla/.nuget/packages/microsoft.aspnetcore.openapi/7.0.2/microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",

@@ -19,7 +19,7 @@ public class AnswerController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/obter/{id}")]
+    [Route("api/answer/obter/{id}")]
     public IActionResult ObterId(int id)
     {
         var answer = _answerRepository.ObterPorId(id);
@@ -34,7 +34,7 @@ public class AnswerController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/listar")]
+    [Route("api/answers/listar")]
     public IActionResult ObterLista()
     {
         var answers = _answerRepository.Listar();
@@ -43,7 +43,7 @@ public class AnswerController : ControllerBase
     }
 
     [HttpPost]
-    [Route("api/criar")]
+    [Route("api/answer/criar")]
     public IActionResult Criar([FromBody] AnswerCriarDto answerDto)
     {
         var answer = new Answer();
@@ -56,7 +56,7 @@ public class AnswerController : ControllerBase
     }
 
     [HttpPut]
-    [Route("api/atualizar/{id}")]
+    [Route("api/answer/atualizar/{id}")]
     public IActionResult Atualizar(int id, [FromBody] AnswerAtualizarDto answerDto)
     {
         var answer = _answerRepository.ObterPorId(id);
@@ -76,7 +76,7 @@ public class AnswerController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("api/deletar/{id}")]
+    [Route("api/answer/deletar/{id}")]
     public IActionResult Deletar(int id)
     {
         if(_answerRepository.Excluir(id))

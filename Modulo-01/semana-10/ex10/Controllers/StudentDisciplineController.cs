@@ -18,7 +18,7 @@ public class StudentDisciplineController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/obter/{id}")]
+    [Route("api/studentDiscipline/obter/{id}")]
     public IActionResult ObterId(int id)
     {
         var studentDiscipline = _studentDisciplineRepository.ObterPorId(id);
@@ -33,7 +33,7 @@ public class StudentDisciplineController : ControllerBase
     }
 
     [HttpGet]
-    [Route("api/listar")]
+    [Route("api/studentsDisciplines/listar")]
     public IActionResult ObterLista()
     {
         var studentDisciplines = _studentDisciplineRepository.Listar();
@@ -42,7 +42,7 @@ public class StudentDisciplineController : ControllerBase
     }
 
     [HttpPost]
-    [Route("api/criar")]
+    [Route("api/studentDiscipline/criar")]
     public IActionResult Criar([FromBody] StudentDisciplineDto studentDisciplineDto)
     {
         var studentDiscipline = new StudentDiscipline();
@@ -56,7 +56,7 @@ public class StudentDisciplineController : ControllerBase
     }
 
     [HttpPut]
-    [Route("api/atualizar/{id}")]
+    [Route("api/studentDiscipline/atualizar/{id}")]
     public IActionResult Atualizar(int id, [FromBody] StudentDisciplineDto studentDisciplineDto)
     {
         var studentDiscipline = _studentDisciplineRepository.ObterPorId(id);
@@ -75,7 +75,7 @@ public class StudentDisciplineController : ControllerBase
     }
 
     [HttpDelete]
-    [Route("api/deletar/{id}")]
+    [Route("api/studentDiscipline/deletar/{id}")]
     public IActionResult Deletar(int id)
     {
         if(_studentDisciplineRepository.Excluir(id))
