@@ -1,0 +1,293 @@
+body {
+    background-color:rgb(228, 201, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+   padding: 0;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    background-color: rgb(175, 150, 112);
+    max-width: 5%;
+    max-height: 5%; /* Ensures the logo doesn't exceed its original size */
+    height: auto; /* Maintains the logo's aspect ratio */
+    display: block; /* Removes any default spacing around the image */
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(175, 150, 112);
+}
+
+nav a {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(131, 120, 53);
+    background-color: rgb(245, 172, 55);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#sobre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.instalacoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 50vw;
+    background-color: rgb(251, 228, 197);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(131, 120, 53);
+    line-height: 2rem;
+}
+
+.instalacoes-image {
+    max-width: 35vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+.quantidades {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    margin-left: 0;
+    padding: 0px 20px 20px 20px;
+    background-color: rgb(251, 228, 197);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+span {
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(131, 120, 53);
+}
+
+.quantidades img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.quantidades-image {
+    max-width: 25vw;
+    height: auto;
+    padding-top:20px;
+    padding-right: 24px;
+    border-radius: 20px;
+}
+
+#deCima {
+    padding-right: 62px;
+}
+
+#deBaixo {
+    padding-left: 20px;
+}
+
+.image {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#oportunidades {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.oportunidades {
+    background-color: rgb(251, 228, 197);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tituloOportunidade {
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.valoresOportunidade {
+    background-color: rgb(236, 235, 196);
+    text-decoration: underline;
+    border: 3px solid rgb(115, 107, 46);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#metodologia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+#bulletpoints {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 228, 197);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+#bulletpoints > span {
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(131, 120, 53);
+}
+
+li {
+    color: rgb(131, 120, 53);
+}
+
+li > h4 {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(131, 120, 53);
+    text-decoration: underline;
+}
+
+#ementa {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+#tabela {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 228, 197);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+tbody > span {
+    padding-bottom: 10px;
+}
+
+th, td {
+    color: rgb(115, 106, 47);
+    border: 1px solid rgb(173, 159, 72);
+    padding: 10px 30px;
+    text-align: center;
+}
+
+#tituloEmenta {
+    padding-bottom: inherit;
+}
+
+#projetos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.imgprojetos {
+    display: flex;
+    background-color: rgb(251, 228, 197);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 60vw;
+}
+
+.imgprojetos > img {
+    width: 30vw;
+    border-radius: 20px;
+    
+}
+
+h3 {
+    color: rgb(115, 106, 47);
+    font-size: large;
+}
+
+
+

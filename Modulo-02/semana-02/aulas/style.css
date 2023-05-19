@@ -1,0 +1,50 @@
+body {
+    background-image: url('trapiche.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+#foto {
+    height: 150px;
+    width: 180px;
+    border-radius: 20px;
+    margin-left: -30px;
+}
+  
+figure {
+    margin-right: 20px;
+  }
+  
+.png{
+    margin-bottom: 10px;
+}
+h2, h4 {
+    margin: 5px;
+  }
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+li {
+    line-height: 30px;
+    text-decoration: underline;
+    border: 1px groove bisque;
+    background-color: rgba(255,255,255,0.3);
+    margin-right: 20px;
+}
