@@ -1,2 +1,2 @@
 # SENAI/Floripa Mais Tec
-Repositório do Curso Profissionalizante "Desenvolvimento Full Stack". Uma parceria entre SENAI, Lab365, ACATE e Prefeitura de Florianópolis.
+Repository of the Professionalizing Course "Full Stack Development". A partnership between SENAI, Lab365, ACATE and the City of Florianópolis.
