@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+/*  forma sem flexbox
+.list-posts {
+    width: 60%;
+    background-color: red;
+    margin: 0 auto;
+}
+*/
+
+.list-posts {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    list-style: none;
+
+}
+
+.list-posts li {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 500px;
+ 
+    margin: 20px 0;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 5px;
+}

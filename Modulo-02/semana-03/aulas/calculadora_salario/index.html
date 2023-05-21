@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <form class="card-salario">
+        <input type="number" placeholder="Digite o salário bruto" id="salarioBruto"  min="0" />
+        <button type="button" onclick="calcularSalario()">Calcular salário</button>
+
+        <table hidden id="tabelaResultado">
+            <thead>
+                <tr>
+                    <td>Eventos</td>
+                    <td>Alíquota Real </td>
+                    <td>Proventos</td>
+                    <td>Descontos</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+                <tr>
+                    <td>Salário Bruto</td>
+                    <td>-</td>
+                    <td id="salarioDigitado"></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>INSS</td>
+                    <td id="porcentagemInssTabela"></td>
+                    <td>-</td>
+                    <td id="valorDescontoInss"></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Imposto de renda</td>
+                    <td id="porcentagemImpostoRendaTabela"></td>
+                    <td>-</td>
+                    <td id="valorDescontadoImpostoDeRenda"></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>FGTS</td>
+                    <td id="porcentagemFgts"></td>
+                    <td>-</td>
+                    <td id="valorDescontadoFgts"></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Resultado</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td id="resultado"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
