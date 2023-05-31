@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jogo_memoria.css">
+  <script type="text/javascript" src="./jogo_memoria.js"></script>
+  <title>Jogo da Memória</title>
+</head>
+<body>
+  <header>
+    <h1>JOGO DA MEMÓRIA</h1>
+  </header>
+  <section class="cronometro">
+    <div>
+      <input type="button" onclick="iniciar()" value="Iniciar">
+      <input type="button" onclick="pausar()" value="Pausar">
+      <input type="button" onclick="reiniciar()" value="Reiniciar">
+    </div>
+    <div class="visor">
+      <div id="minutos"></div>
+      <span>:</span>
+      <div id="segundos"></div>
+    </div>
+  </section>
+  <main>
+    <div class="card" id="card1">
+      <input type="button" onclick="selecionar('card1')" value="1">
+    </div>
+    <div class="card" id="card2">
+      <input type="button" onclick="selecionar('card2')" value="2">
+    </div>
+    <div class="card" id="card3">
+      <input type="button" onclick="selecionar('card3')" value="4">
+    </div>
+    <div class="card" id="card4">
+      <input type="button" onclick="selecionar('card4')" value="5">
+    </div>
+    <div class="card" id="card5">
+      <input type="button" onclick="selecionar('card5')" value="3">
+    </div>
+    <div class="card" id="card6">
+      <input type="button" onclick="selecionar('card6')" value="4">
+    </div>
+    <div class="card" id="card7">
+      <input type="button" onclick="selecionar('card7')" value="5">
+    </div>
+    <div class="card" id="card8">
+      <input type="button" onclick="selecionar('card8')" value="6">
+    </div>
+    <div class="card" id="card9">
+      <input type="button" onclick="selecionar('card9')" value="3">
+    </div>
+    <div class="card" id="card10">
+      <input type="button" onclick="selecionar('card10')" value="2">
+    </div>
+    <div class="card" id="card11">
+      <input type="button" onclick="selecionar('card11')" value="1">
+    </div>
+    <div class="card" id="card12">
+      <input type="button" onclick="selecionar('card12')" value="6">
+    </div>
+  </main>
+</body>
+</html>

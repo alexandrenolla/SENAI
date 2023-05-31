@@ -67,13 +67,19 @@ function criarh4(resultado) {
     }
 }
 
+let listaResultado = []
+
+// Histórico de imcs no historicos.html
+let lista = document.getElementById("historico")
 
 const verificaStorage = localStorage.getItem("historico")
-let listaResultado = []
+
 if (verificaStorage !== null) {
     const obj = JSON.parse(verificaStorage)
     listaResultado = obj
 }
 
+const html = listaResultado.map(r => "<li>" + r + "</li>")
+lista.innerHTML = html
 
 

@@ -5,11 +5,13 @@
  let largura = 75
  const maxEixoX = 83;
  const minEixoX = 1;
- let movimento = 1  //1 = parado porém indo pra direita, 2 = indo 
-                    //3 parado vindo 4 = vindo
+ let movimento = 1  //1 = parado para direita 
+                    //2 = indo 
+                    //3 parado para esquerda 
+                    //4 = voltando
 
 
- // armazena elementos que serão manipulado no futuro em variaveis
+ // armazena elementos que serão manipulados no futuro em variaveis
  const img = document.getElementById("img")
  const btnIniciar = document.getElementById("iniciar")
 
@@ -34,8 +36,10 @@
      // 2 - reconhecer que o movimento deve ser interrompido
      iniciaMovimento()
  }
- //1 = parado porém indo pra direita, 2 = indo 
-//3 parado vindo, 4 = vindo
+//1 = parado para direita 
+//2 = indo 
+//3 parado para esquerda 
+//4 = voltando
  function iniciaMovimento(){
      setInterval(function(){
 

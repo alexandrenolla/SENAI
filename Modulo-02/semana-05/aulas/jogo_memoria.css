@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #7fd8d8;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  width: 20%;
+  margin-top: 16px;
+  min-height: 20vh;
+  background-color: white;
+}
+
+.card input {
+  width: 100%;
+  min-height: 20vh;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.show {
+  color: unset !important;
+}
+
+.cronometro {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.cronometro input {
+  min-height: 25px;
+  width: 100px;
+  padding: 4px 8px;
+  border: 2px solid #126060;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.cronometro .visor {
+  display: flex;
+  align-items: center;
+}
+
+.cronometro #minutos, #segundos {
+  border: 2px solid #126060;
+  border-radius: 6px;
+  background-color: white;
+  min-height: 25px;
+  min-width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
