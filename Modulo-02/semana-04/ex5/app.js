@@ -1,4 +1,3 @@
-
 function mostrarStorage() {
 
     const obj = {
@@ -16,8 +15,8 @@ function mostrarStorage() {
     // no console
     console.log(parseado)
     // na página
-    for (chave in parseado) {
+    for (chave in parseado) {          
         h4.innerHTML += chave + ": " + parseado[chave] + "<br>"
-    }
+    }                                //objeto[chave] retorna o valor da chave
 }
 window.onload = mostrarStorage

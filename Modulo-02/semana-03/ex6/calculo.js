@@ -79,7 +79,8 @@ if (verificaStorage !== null) {
     listaResultado = obj
 }
 
-const html = listaResultado.map(r => "<li>" + r + "</li>")
-lista.innerHTML = html
+listaResultado.forEach(element => {
+    lista.innerHTML += "<li>" + element + "</li>" + "<br>"
+});
 
 
