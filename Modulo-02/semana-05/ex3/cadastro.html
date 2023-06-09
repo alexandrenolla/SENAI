@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <script src="cadastro.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
         <div>
             <label for="email">E-mail: </label>
-            <input type="email" class="inputCadastro">
+            <input type="email" id="email" class="inputCadastro">
         </div>
         <div>
             <label for="password">Senha: </label>
-            <input type="password" class="inputCadastro">
+            <input type="password" minlength="10" class="inputCadastro" id="pass">
         </div>
         <div>
             <label for="password">Confirmar Senha: </label>
-            <input type="password">
+            <input type="password" minlength="10" id="confpass">
         </div>
-        <button>Cadastrar</button>
-
-        
+        <span id="erro"></span>
+        <button onclick="confPass()">Cadastrar</button>
     </form>
 </body>
 </html>

@@ -5,11 +5,11 @@ class Retangulo {
     this.largura = largura;
   }
 
-  //metodo referente à classe
+  //metodo referente a classe
   static areaStatic(altura, largura) {
     return altura * largura;
   }
-  //metodo referete à instanciação
+
   areaPublic(altura, largura) {
     return altura * largura;
   }

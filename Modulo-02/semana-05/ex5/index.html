@@ -4,26 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <form action="">
         <div>
             <label for="email">E-mail: </label>
-            <input type="email" class="inputCadastro">
+            <input type="email" id="email">
         </div>
         <div>
             <label for="password">Senha: </label>
-            <input type="password" class="inputCadastro">
-        </div>
-        <div>
-            <label for="password">Confirmar Senha: </label>
-            <input type="password">
-        </div>
-        <button>Cadastrar</button>
-
-        
+            <input type="password" id="password">
+        </div>     
+        <button onclick="confLogin()">Entrar</button>
+        <button onclick="window.location.href = './cadastro.html';">Cadastrar</button>
+        <button>Esqueci a Senha</button>
     </form>
 </body>
 </html>

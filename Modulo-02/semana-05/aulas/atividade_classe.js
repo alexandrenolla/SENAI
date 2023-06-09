@@ -32,5 +32,5 @@ var tom = new Animal('gato', 'Tom', 'medio', 'branca', '6');
 lulu.dormir();
 tom.comer('peixe');
 
-//metodo da classe
+//metodo da classe (esta)
 Animal.respirar();
