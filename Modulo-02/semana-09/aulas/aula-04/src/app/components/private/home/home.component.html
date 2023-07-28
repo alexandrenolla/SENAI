@@ -1,0 +1,12 @@
+<div class="container pt-3">
+    <h3>Veja nossas séries!</h3>
+    <div class="d-flex row container">
+        <div class="p-1 col" *ngFor="let serie of series">
+            <div class="video-thumbnail"></div>
+            <div class="d-flex flex-column">
+                <span>{{ serie.nome }}</span>
+                <span style="cursor: pointer;" (click)="recebeClickAssistir(serie)">Assistir</span>
+            </div>
+        </div>
+    </div>
+</div>

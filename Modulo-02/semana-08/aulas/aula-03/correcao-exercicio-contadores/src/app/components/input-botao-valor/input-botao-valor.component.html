@@ -1,0 +1,35 @@
+<!-- <div>
+  <div>
+    <p>Valor: {{ valorPix }}</p>
+    <input type="text" [(ngModel)]="valorPix" />
+    <button (click)="valorPix = +valorPix + 5">5</button>
+    <button (click)="valorPix = +valorPix + 10">10</button>
+    <button (click)="valorPix = +valorPix + 50">50</button>
+    <button (click)="valorPix = +valorPix + 100">100</button>
+    <button (click)="valorPix = +valorPix + 500">500</button>
+  </div>
+</div> -->
+
+<div>
+  <div>
+    <p>Valor: {{ valorPix }}</p>
+    <input type="text" [(ngModel)]="valorPix" />
+    <button (click)="incrementar(5)">5</button>
+    <button (click)="incrementar(10)">10</button>
+    <button (click)="incrementar(50)">50</button>
+    <button (click)="incrementar(100)">100</button>
+    <button (click)="incrementar(500)">500</button>
+  </div>
+</div>
+
+<!-- <div>
+  <div>
+    <p>Valor: {{ valorPix }}</p>
+    <input type="text" [(ngModel)]="valorPix" />
+    <button (click)="incrementarLabel($event)">5</button>
+    <button (click)="incrementarLabel($event)">10</button>
+    <button (click)="incrementarLabel($event)">50</button>
+    <button (click)="incrementarLabel($event)">100</button>
+    <button (click)="incrementarLabel($event)">500</button>
+  </div>
+</div> -->

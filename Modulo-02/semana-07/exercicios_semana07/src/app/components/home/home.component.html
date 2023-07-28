@@ -1,0 +1,23 @@
+<!--Data annotation de Two Way Data Binding.-->
+<input type="text" [(ngModel)] = 'textoDigitado'>
+<!--String Interpolation (Literal Template) -->
+<p>String interpolation de Two way Data binding no Input: {{ textoDigitado }}</p>
+<hr>
+
+<h4>Calculadora:</h4>
+
+<label for="primeiro-numero">Primeiro número: </label>
+<input type="number" id="primeiro-numero" [(ngModel)] = 'primeiroNumero'>
+<label for="segundo-numero">Segundo número: </label>
+<input type="number" id="segundo-numero" [(ngModel)] = 'segundoNumero'>
+<label for="operacao">Operação: </label>
+<select id="operacao" [(ngModel)] = 'operacao'>
+    <option value="Somar">Somar</option>
+    <option value="Subtrair">Subtrair</option>
+    <option value="Multiplicar">Multiplicar</option>
+    <option value="Dividir">Dividir</option>
+</select>
+<button type="submit" (click)="Calcular()">Calcular</button>
+<button type="submit" (click)="Limpar()">Limpar</button>
+<p>Resultado: </p>
+<span>{{ resultado }}</span>

@@ -1,0 +1,27 @@
+<!-- data binding - string interpolation: -->
+<h1>
+    Meu nome é {{nome}} e eu já tenho {{idade}}
+    <br>
+    Amostra de string interpolation (nome e idade são propriedades da classe)
+</h1>
+
+<label for="nome">Digite seu nome:</label>
+<br>
+<!-- data binding - property binding: -->
+<input type="text" id="nome" [value]="nome">
+<br>
+<!-- data binding - property binding: -->
+<button [disabled]="desabilitarBotao">Clique aqui</button>
+<p>Amostras de Property binding (valor do input é uma propriedade da classe e o botão desabilita com um método da classe. Ambos alteram atributos do html.)</p>
+
+<br><br>
+<!-- data binding - event binding: -->
+<button (click)="botaoClicado()">Clique aqui</button>
+<p>Amostra de Event binding (olhe no console, é um método da classe).</p>
+
+<br><br>
+<label for="nome2">Digite seu nome:</label>
+<br>
+<!-- data binding - Two Way binding: -->
+<input type="text" id="nome2" [(ngModel)]="nome2">
+<p>Amostra do Two way binding através de string interpolation na propriedade da classe presente como valor do input -> {{nome2}} </p>

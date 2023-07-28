@@ -1,0 +1,24 @@
+<!-- Template Driven Form -->
+<form id="formulario" #meuForm="ngForm">
+    <label for="email">Insira seu email</label>
+    <input type="text" id="email" name="email" [(ngModel)]="produto.email" required email #email="ngModel">
+    <span
+        class="invalid-message"
+        *ngIf="meuForm.form.touched && email.invalid">
+        Por favor insira seu nome
+    </span>
+
+    <label for="inscricao">Selecione a sua inscrição</label>
+    <select id="inscricao">
+        <option value="basica">Básica</option>
+        <option value="avancada">Avançada</option>
+        <option value="pro">Pro</option>
+    </select>
+
+    <label for="senha">Insira sua senha</label>
+    <br>
+    <input type="password" id="senha" name="senha" [(ngModel)]="produto.senha" required>
+    <br>
+    <button class="submit-button" type="submit" [disabled]="meuForm.form.invalid">Enviar</button>
+</form>
+<button></button>

@@ -1,0 +1,9 @@
+<input [(ngModel)]="username">
+<p>
+    {{ username }}
+</p>
+<button
+    (click)="botaoClickado()"
+    [disabled]="this.username.length === 0 ? true : false">
+    Me clique!
+</button>

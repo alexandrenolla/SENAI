@@ -1,0 +1,16 @@
+<div class="container pt-3">
+    <h3>Veja nossas séries!</h3>
+    <div class="d-flex row container">
+        <div class="p-1 col" *ngFor="let filme of filmes">
+            <img [src]="filme.image" (click)="recebeClickFilme(filme)">
+            <div class="d-flex flex-column">
+                <span>{{ filme.title }}</span>
+                <span 
+                    style="cursor: pointer;" 
+                    (click)="recebeClickFilme(filme)">
+                    Ver mais detalhes
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

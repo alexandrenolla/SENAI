@@ -1,0 +1,55 @@
+<header class="container-fluid bg-light">Cabeçalho</header>
+
+<main style="min-height: 400px; background-color: red">
+  <div class="container-fluid">
+    <!-- <div class="row">
+      <div class="col-5 bg-primary">Coluna 1</div>
+      <div class="col-5 bg-secondary">Coluna 2</div>
+      <div class="col-auto bg-danger">Coluna 3</div>
+    </div> -->
+
+    <!-- <div class="row">
+      <div class="col bg-primary">
+        <div class="row">
+          <div class="col bg-light">1</div>
+          <div class="col bg-primary">2</div>
+        </div>
+      </div>
+      <div class="col bg-secondary">Coluna 2</div>
+    </div> -->
+    <div class="row d-flex justify-content-center">
+      <div class="col-auto" *ngFor="let item of [1, 2, 3, 4]; index as i">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p
+              class="card-text"
+              [ngClass]="{
+                'text-info': i == 0,
+                'text-danger': i == 1,
+                'text-primary': i == 2,
+                'text-warning': i == 3
+              }"
+            >
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary"
+              [ngClass]="{ 'btn-danger': i == 2 }"
+              >Go somewhere</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="container-fluid bg-dark text-white">Footer</footer>

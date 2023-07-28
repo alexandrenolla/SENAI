@@ -1,0 +1,43 @@
+<p class="heading">Cadastrar um novo aluno</p>
+<!-- Template Driven Form -->
+<form (ngSubmit)="onSubmit()" #meuForm="ngForm">
+    <div>
+        <label for="nomeAluno">Nome</label>
+        <input 
+            type="text" 
+            id="nomeAluno" 
+            name="nomeAluno" 
+            [(ngModel)]="aluno.nome"
+            required
+            #nome="ngModel">
+        <span
+            class="invalid-message"
+            *ngIf="meuForm.form.touched && nome.invalid">
+            Por favor insira seu nome
+        </span>
+    </div>
+    <div>
+        <label for="emailAluno">Email</label>
+        <input 
+            type="text" 
+            id="emailAluno"
+            name="nomeAluno"
+            [(ngModel)]="aluno.email"
+            required
+            email>
+    </div>
+    <div>
+        <label for="cursoAluno">Curso</label>
+        <select id="cursoAluno" name="cursoAluno" name="cursoAluno" [(ngModel)]="aluno.curso">
+            <option value="historia">História</option>
+            <option value="filosofia">Filosofia</option>
+            <option value="sociologia">Sociologia</option>
+        </select>
+    </div>
+    <button 
+        type="submit" 
+        class="submit-button"
+        [disabled]="meuForm.form.invalid">
+        Cadastrar
+    </button>
+</form>

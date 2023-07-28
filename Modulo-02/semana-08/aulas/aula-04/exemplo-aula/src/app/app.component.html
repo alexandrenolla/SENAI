@@ -1,0 +1,11 @@
+<p>Filtro Pai: {{ nomeParaSerFiltrado }}</p>
+
+<!-- <app-aluno-filter
+  [(nomeParaSerFiltrado)]="nomeParaSerFiltrado"
+></app-aluno-filter> -->
+
+<app-aluno-list
+  [alunosFilhos]="alunosPai"
+  (alunoExcluido)="excluirAlunoDaListaPai($event)"
+>
+</app-aluno-list>

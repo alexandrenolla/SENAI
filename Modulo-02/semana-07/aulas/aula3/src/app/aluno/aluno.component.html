@@ -1,0 +1,42 @@
+<p class="heading">Cadastrar um novo aluno</p>
+<!-- TEMPLATE DRIVEN FORM -->
+<form (ngSubmit)="onSubmit(meuForm.value)" #meuForm="ngForm">
+    <div>
+        <label for="nomeAluno">Nome</label>
+        <input 
+            type="text" 
+            id="nomeAluno" 
+            name="nomeAluno" 
+            ngModel
+            required>
+    </div>
+    <div>
+        <label for="emailAluno">Email</label>
+        <input 
+            type="text" 
+            id="emailAluno" 
+            name="emailAluno" 
+            ngModel 
+            required 
+            email>
+    </div>
+    <div>
+        <label for="cursoAluno">Curso</label>
+        <select 
+            id="cursoAluno" 
+            name="cursoAluno" 
+            ngModel
+            required>
+            <option value="historia">História</option>
+            <option value="filosofia">Filosofia</option>
+            <option value="sociologia">Sociologia</option>
+        </select>
+    </div>
+    <button type="submit" class="submit-button" [disabled]="meuForm.form.invalid">Cadastrar aluno</button>
+</form>
+
+<button class="generic-button" (click)="buscarAlunos()">Buscar alunos</button>
+
+<div *ngFor="let aluno of alunosCadastrados">
+    <p> Nome: {{ aluno.nomeAluno }} Curso: {{ aluno.cursoAluno }} </p>
+</div>

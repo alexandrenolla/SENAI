@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+        <a class="navbar-brand">SenaiFlix</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" routerLink="/home">
+                    <a 
+                        class="nav-link" 
+                        style="cursor: pointer;"
+                        routerLinkActive="active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item" (click)="onCliqueSobre()">
+                    <a 
+                        class="nav-link" 
+                        style="cursor: pointer;">
+                        Sobre
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a 
+                        class="nav-link" 
+                        style="cursor: pointer;">
+                        Trailer
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a 
+                        class="nav-link" 
+                        style="cursor: pointer;">
+                        Atores
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

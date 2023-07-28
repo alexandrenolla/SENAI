@@ -1,0 +1,38 @@
+<div class="container mt-5 mb-5">
+    <h4>Faça seu login para acessar</h4>
+    <form #meuForm="ngForm" (ngSubmit)="login(meuForm)">
+        <div class="form-group pb-3">
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                class="form-control" 
+                id="email" 
+                placeholder="Insira seu email"
+                name="email"
+                ngModel
+                email
+                required>
+        </div>
+        <div class="form-group pb-3">
+            <label for="password">Senha</label>
+            <input 
+                type="password" 
+                class="form-control" 
+                id="password" 
+                placeholder="Senha"
+                name="password"
+                ngModel
+                required
+                minlength="6">
+        </div>
+        <div class="d-grid gap-3 d-md-flex">
+            <button 
+                type="submit" 
+                class="btn btn-primary" 
+                [disabled]="meuForm.invalid">
+                Login
+            </button>
+            <button type="button" class="btn btn-secondary" (click)="goToSignup()">Cadastrar</button>
+        </div>
+    </form>
+</div>

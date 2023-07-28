@@ -1,0 +1,19 @@
+<!-- <div>
+  <pre>{{ alunosFilhos | json }}</pre>
+</div> -->
+
+<!-- if (!(alunos && alunos.length > 0)) { -->
+
+<div *ngIf="!(alunosFilhos && alunosFilhos.length > 0)">
+  <span>Nenhum registro encontrado.</span>
+</div>
+
+<ul *ngIf="alunosFilhos && alunosFilhos.length > 0">
+  <!-- for (let aluno of alunos) -->
+  <li *ngFor="let aluno of alunosFilhos">
+    {{ aluno }}
+    <button class="button-secondary" (click)="excluirAluno(aluno)">
+      Excluir
+    </button>
+  </li>
+</ul>

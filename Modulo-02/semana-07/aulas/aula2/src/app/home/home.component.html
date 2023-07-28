@@ -1,0 +1,33 @@
+<!-- <div class="container">
+    <p>Lista de alunos:</p>
+    <div *ngIf="exibirAluno(); else naoExibido">
+        <p>Nome: {{ alunos[0].nome }}</p>
+        <p>Nota: {{ alunos[0].nota }}</p>
+    </div>
+    <ng-template #naoExibido>
+        <p>Nenhum aluno a exibir!!</p>
+    </ng-template>
+</div> -->
+
+<div class="container">
+    <!-- <p>Lista de alunos:</p>
+    <div *ngFor="let aluno of alunosTypeScript">
+        <p>Nome: {{ aluno.nome }}</p>
+        <p>Nota: {{ aluno.nota }}</p>
+        <p>----------------------</p>
+    </div> -->
+
+    <!-- <p>Lista de compras:</p>
+    <div *ngFor="let ingrediente of listaDeCompras; index as i">
+        <span>{{ i + 1 }} Nome do ingrediente: {{ ingrediente }}</span>
+    </div> -->
+
+    <button (click)="emCliqueBotao()">Clique-me!</button>
+    
+    <p>Datas de clique:</p>
+    <div *ngFor="let dataClique of datasDeClique;">
+        <span *ngIf="dataClique.exibir"> {{ dataClique.data }}</span>
+    </div>
+
+</div>
+

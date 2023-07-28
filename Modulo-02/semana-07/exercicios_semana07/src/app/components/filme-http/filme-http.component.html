@@ -1,0 +1,9 @@
+<button (click)="buscarFilmes()">Buscar filmes</button>
+<button (click)="filmeMelhorAvaliado()">Buscar melhor filme</button>
+<br>
+<span *ngIf="carregando">CARREGANDO...</span>
+<hr>
+<button *ngIf="indiceFilme !=2" (click)="Proximo()">Próximo</button>
+<button *ngIf="indiceFilme !=0" (click)="Anterior()">Anterior</button>
+
+<p>{{ filmeAtual?.nomeFilme }}</p>

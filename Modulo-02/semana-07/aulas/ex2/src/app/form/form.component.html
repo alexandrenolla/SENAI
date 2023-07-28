@@ -1,0 +1,44 @@
+<form [formGroup]="projetoForm" (ngSubmit)="onSubmit()">
+
+    <label for="nomeProjeto">Nome do projeto:</label>
+    <input type="text" id="nomeProjeto" formControlName="nomeProjeto">
+    <div *ngIf="projetoForm.get('nomeProjeto')?.invalid" >
+
+        <span *ngIf="projetoForm.get('nomeProjeto')?.hasError('required')" class="invalid-message">
+            Este campo é obrigatório.
+        </span>    
+
+        <span
+            *ngIf="projetoForm.get('nomeProjeto')?.hasError('nomeProibido')"
+            class="invalid-message">
+            Nome proibido!
+        </span>
+    </div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" formControlName="email">
+    <div
+        *ngIf="projetoForm.get('email')?.invalid">
+
+        <span class="invalid-message">
+            Este campo é obrigatório. Insira um email válido.
+        </span>    
+    </div>
+
+    <label for="statusProjeto">Status do Projeto</label>
+    <select id="statusProjeto" formControlName="statusProjeto">
+        <option value="Estável">Estável</option>
+        <option value="Crítico">Crítico</option>
+        <option value="Finalizado">Finalizado</option>
+    </select>
+    <div 
+    *ngIf="projetoForm.get('statusProjeto')?.invalid">
+        
+        <span class="invalid-message">
+            Este campo é obrigatório.
+        </span>
+    </div>
+
+    <button type="submit" class="submit-button">Cadastrar</button>
+
+</form>

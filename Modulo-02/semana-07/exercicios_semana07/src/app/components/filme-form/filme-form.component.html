@@ -1,0 +1,17 @@
+<!--Reactive Form-->
+<form [formGroup]="filmeForm" (ngSubmit)="Enviar()">
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" formControlName="nome">
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" id="email" formControlName="email">
+    <br>
+    <label for="filme">Nome do filme: </label>
+    <input type="text" id="filme" formControlName="filme">
+    <br>
+    <label for="nota">Nota do filme: </label>
+    <input type="number" id="nota" formControlName="nota">
+    <br>
+    <button type="submit" [disabled]="filmeForm.invalid">Enviar</button>
+    <button type="reset">Cancelar</button>
+</form>

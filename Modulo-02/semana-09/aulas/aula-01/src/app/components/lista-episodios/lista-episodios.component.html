@@ -1,0 +1,29 @@
+<div class="container">
+    <h2 class="mt-4">Episódios</h2>
+
+    <div class="d-flex d-row">
+        <div
+            class="p-3"
+            *ngFor="let episodio of listaEpisodiosFilho">
+
+            <!-- Conteúdo dentro do for -->
+            <p class="m-0">{{ episodio.nome }}</p>
+            <div class="video-thumbnail">
+                <span class="video-tempo small-font">
+                    {{ episodio.duracao }}
+                </span>
+            </div>
+            <div class="d-flex flex-column">
+                <a 
+                    class="link small-font" 
+                    (click)="emiteEventoSinopse(episodio.nome)">
+                    Ver sinopse
+                </a>
+                <a 
+                    class="link small-font"
+                    (click)="emiteEventoTrailer(episodio.nome)"
+                    >Assistir trailer</a>
+            </div>
+        </div>
+    </div>
+</div>

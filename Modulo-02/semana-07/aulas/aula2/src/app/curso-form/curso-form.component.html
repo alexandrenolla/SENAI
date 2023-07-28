@@ -1,0 +1,45 @@
+<p class="heading">Cadastrar um novo curso</p>
+<!-- REACTIVE FORM -->
+<form [formGroup]="cursoForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label for="nomeCurso">Nome do curso</label>
+        <input type="text" id="nomeCurso" formControlName="nomeCurso">
+        <div
+            *ngIf="cursoForm.get('nomeCurso')?.invalid && cursoForm.get('nomeCurso')?.touched"
+            class="invalid-message">
+
+            <span class="invalid-message">Existem erros!!</span>
+
+            <span
+                *ngIf="cursoForm.get('nomeCurso')?.errors && cursoForm.get('nomeCurso')?.hasError('required')"
+                class="invalid-message">
+                Este campo é obrigatório!
+            </span>
+
+            <span
+                class="invalid-message"
+                *ngIf="cursoForm.get('nomeCurso')?.errors && cursoForm.get('nomeCurso')?.hasError('cursoProibido')">
+                Não informe cursos proibidos!
+            </span>
+
+        </div>
+    </div>
+    <div>
+        <label for="emailCoordenador">Email do professor coordenador</label>
+        <input type="email" id="emailCoordenador" formControlName="emailCoordenador">
+        <span
+            *ngIf="cursoForm.get('emailCoordenador')?.invalid && cursoForm.get('emailCoordenador')?.touched"
+            class="invalid-message">
+            Por favor insira um email válido!!
+        </span>
+    </div>
+    <div>
+        <label for="categoriaCurso">Categoria do curso</label>
+        <select id="categoriaCurso" formControlName="categoriaCurso">
+            <option value="graduacao">Graduação</option>
+            <option value="mestrado">Mestrado</option>
+            <option value="doutorado">Doutorado</option>
+        </select>
+    </div>
+    <button type="submit" class="submit-button">Cadastrar</button>
+</form>
