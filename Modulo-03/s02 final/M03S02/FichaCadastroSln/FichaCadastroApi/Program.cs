@@ -16,9 +16,9 @@ builder.Services.AddRouting(options =>
     options.LowercaseQueryStrings = true;
 });
 
-string connectionString = "Server=localhost;Database=FichaCadastro;Trusted_Connection=True;TrustServerCertificate=True;";
+string connectionString = "Data Source=/Users/alexandrenolla/Documents/dev/SENAI/Modulo-03/s02 final/fichaCadastro.db;";
 
-builder.Services.AddDbContext<FichaCadastroDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<FichaCadastroDbContext>(options => options.UseSqlite(connectionString));
 
 builder.Services.AddAutoMapper(typeof(Program));
 

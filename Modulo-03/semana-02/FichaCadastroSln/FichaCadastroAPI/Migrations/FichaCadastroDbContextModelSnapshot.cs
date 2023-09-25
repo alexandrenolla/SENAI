@@ -23,11 +23,13 @@ namespace FichaCadastroAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<bool>("Ativado")
+                    b.Property<bool>("Ativo")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("TEXT");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 15, 11, 41, 46, 98, DateTimeKind.Local).AddTicks(7100));
 
                     b.Property<string>("Feedback")
                         .IsRequired()
@@ -54,7 +56,9 @@ namespace FichaCadastroAPI.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("TEXT");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 15, 11, 41, 46, 98, DateTimeKind.Local).AddTicks(8150));
 
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("TEXT");
@@ -72,6 +76,118 @@ namespace FichaCadastroAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Ficha");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes@email.com.br",
+                            Nome = "Teste"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes2@email.com.br",
+                            Nome = "Teste2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes3@email.com.br",
+                            Nome = "Teste3"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes9@email.com.br",
+                            Nome = "Teste9"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes4@email.com.br",
+                            Nome = "Teste4"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes5@email.com.br",
+                            Nome = "Teste5"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes6@email.com.br",
+                            Nome = "Teste6"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes7@email.com.br",
+                            Nome = "Teste7"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes8@email.com.br",
+                            Nome = "Teste8"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            DataCadastro = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataNascimento = new DateTime(1997, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testes10@email.com.br",
+                            Nome = "Teste10"
+                        });
+                });
+
+            modelBuilder.Entity("FichaCadastroAPI.Model.TelefoneModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("DDD")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("FichaId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Numero")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FichaId");
+
+                    b.ToTable("Telefone");
                 });
 
             modelBuilder.Entity("FichaCadastroAPI.Model.DetalheModel", b =>
@@ -79,7 +195,18 @@ namespace FichaCadastroAPI.Migrations
                     b.HasOne("FichaCadastroAPI.Model.FichaModel", "Ficha")
                         .WithMany("Detalhes")
                         .HasForeignKey("FichaId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Ficha");
+                });
+
+            modelBuilder.Entity("FichaCadastroAPI.Model.TelefoneModel", b =>
+                {
+                    b.HasOne("FichaCadastroAPI.Model.FichaModel", "Ficha")
+                        .WithMany("Telefones")
+                        .HasForeignKey("FichaId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Ficha");
@@ -88,6 +215,8 @@ namespace FichaCadastroAPI.Migrations
             modelBuilder.Entity("FichaCadastroAPI.Model.FichaModel", b =>
                 {
                     b.Navigation("Detalhes");
+
+                    b.Navigation("Telefones");
                 });
 #pragma warning restore 612, 618
         }
