@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-OpenForm() {
-  
+  enviar() {
+    window.alert('Envio realizado com sucesso');
+  }
 }
 
-}
