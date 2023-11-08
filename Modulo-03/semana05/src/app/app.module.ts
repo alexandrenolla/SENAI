@@ -2,20 +2,22 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/components/header/header.component';
-import { HomeComponent } from './home/home/home.component';
 import { ModalComponent } from './modal/modal.component';
+import { HomeModule } from './home/home/home.module';
+import { SharedModule } from './shared/shared.module';
+import { ExerciciosTrelloComponent } from './exercicios-trello/exercicios-trello.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    HomeComponent,
-    ModalComponent
+    ModalComponent,
+    ExerciciosTrelloComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
